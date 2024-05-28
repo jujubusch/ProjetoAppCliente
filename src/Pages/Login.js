@@ -13,7 +13,6 @@ export default function Login() {
        Login( email, senha );
     }
 
-
     return (
         <ScrollView contentContainerStyle={css.container}>
             <Image source={require("../../assets/logo.png")} style={css.logo} />
@@ -27,7 +26,7 @@ export default function Login() {
             />
             <TextInput
                 inputMode="text"
-                placeholder="Password"
+                placeholder="Senha"
                 secureTextEntry={true}
                 style={css.input}
                 value={senha}
